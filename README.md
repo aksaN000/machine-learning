@@ -4,7 +4,7 @@ A comprehensive collection of machine learning projects demonstrating various al
 
 ## Repository Highlights
 
-- **7 Complete Projects**: From basic classification to advanced real estate prediction
+- **8 Complete Projects**: From basic classification to advanced real estate prediction and deep learning
 - **Comprehensive Algorithm Comparison**: Side-by-side evaluation of 10+ ML algorithms
 - **Production-Ready Utilities**: Reusable classes and functions for ML workflows
 - **Educational Content**: Complete guide from beginner to advanced concepts
@@ -80,6 +80,17 @@ A comprehensive collection of machine learning projects demonstrating various al
   - Trade-off evaluations (speed vs accuracy vs interpretability)
 - **Datasets**: Iris, Wine, Breast Cancer, Housing, Diabetes
 
+### Part 8: Deep Learning Neural Networks (NEW)
+- **File**: `part8_deep_learning_neural_networks.ipynb`
+- **Description**: Hands-on deep learning with CNNs, transfer learning, and RNNs
+- **Key Concepts**:
+  - Convolutional Neural Networks (CIFAR-10)
+  - Transfer learning with ResNet50
+  - Recurrent Neural Networks (LSTM) for sentiment analysis (IMDB)
+  - Data augmentation, callbacks, and training best practices
+  - Interpretability, optimizer comparisons, and simple ensembling
+- **Dependencies**: Heavy DL frameworks are installed within the notebook to keep the base environment light
+
 ## Utility Resources
 
 ### Machine Learning Utilities
@@ -126,6 +137,10 @@ A comprehensive collection of machine learning projects demonstrating various al
 - **SHAP**: Model interpretability
 - **Yellowbrick**: ML visualization
 - **Jupyter Notebooks**: Interactive development environment
+// Optional for Part 8 (installed within notebook)
+- **TensorFlow/Keras**: Deep learning framework
+- **TensorFlow Datasets (tfds)**: Dataset utilities for TensorFlow
+- **Hugging Face Transformers**: Pretrained models for NLP
 
 ## Advanced Features
 
@@ -254,7 +269,7 @@ This repository welcomes contributions! Areas for enhancement:
 ## Future Enhancements
 
 ### Short-term
-- Deep learning implementations
+- More deep learning examples (Vision Transformers, attention mechanisms)
 - Time series analysis projects
 - Natural language processing examples
 - Computer vision applications
@@ -282,71 +297,3 @@ This project is open source and available under the MIT License.
 ---
 
 **Note**: This repository demonstrates practical machine learning implementation skills and serves as a comprehensive resource for both learning and professional development. Each project is designed to showcase different aspects of the ML workflow while providing actionable insights and reusable code.
-
-## Getting Started
-
-### Prerequisites
-```bash
-pip install -r requirements.txt
-```
-
-Or install individually:
-```bash
-pip install numpy pandas matplotlib scikit-learn jupyter seaborn
-```
-
-### Running the Projects
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/aksaN000/machine-learning.git
-   cd machine-learning
-   ```
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Start Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
-4. Open any notebook file and run the cells sequentially to see the implementation and results
-
-## Learning Outcomes
-
-- Understanding of fundamental machine learning concepts
-- Practical experience with classification algorithms
-- Data preprocessing and feature engineering skills
-- Model evaluation and performance assessment
-- Hands-on experience with popular ML libraries
-
-## Dataset Information
-
-The projects use various datasets including:
-- Titanic passenger survival data
-- Iris flower classification dataset
-- Custom datasets for specific algorithm demonstrations
-
-## Project Results
-
-Each notebook includes:
-- Detailed explanations of the methodology
-- Code implementation with comments
-- Visualization of results
-- Performance metrics and evaluation
-- Insights and conclusions
-
-## Future Enhancements
-
-- Implementation of regression algorithms
-- Deep learning techniques
-- Ensemble methods optimization
-- Real-time prediction capabilities
-- Web-based model deployment
-
-## Contributing
-
-Feel free to fork this repository and submit pull requests for improvements or additional machine learning implementations.
-
-## License
-
-This project is open source and available under the MIT License.
