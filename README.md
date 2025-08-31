@@ -75,14 +75,29 @@ This repository contains practical implementations of fundamental machine learni
 
 ### Prerequisites
 ```bash
-pip install numpy pandas matplotlib scikit-learn jupyter
+pip install -r requirements.txt
+```
+
+Or install individually:
+```bash
+pip install numpy pandas matplotlib scikit-learn jupyter seaborn
 ```
 
 ### Running the Projects
-1. Clone this repository
-2. Install the required dependencies
-3. Open any notebook file in Jupyter or your preferred notebook environment
-4. Run the cells sequentially to see the implementation and results
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/aksaN000/machine-learning.git
+   cd machine-learning
+   ```
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Start Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+4. Open any notebook file and run the cells sequentially to see the implementation and results
 
 ## Learning Outcomes
 
